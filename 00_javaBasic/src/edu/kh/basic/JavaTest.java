@@ -19,6 +19,7 @@ public class JavaTest {
 		// 자바는 사칙연산 우선순위 그대로 따름
 		
 		System.out.println("90 + 75 + 65 =" + (90 + 70 + 65));
+		// 집 수행
 	}
 
 
