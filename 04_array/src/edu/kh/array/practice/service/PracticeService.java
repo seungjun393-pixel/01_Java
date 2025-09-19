@@ -163,6 +163,29 @@ public class PracticeService {
 	}
 	
 	public void practice10() {
+		int[] arr = new int[10];
+		String sum = "";
+	
+		for(int i = 0; i<arr.length; i++) {
+			arr[i] = (int)(Math.random()*10+1);
+			sum += arr[i]+" ";
+		}
+		
+		int max = arr[0];
+		int min = arr[0];
+		
+		for(int i = 1; i<arr.length; i++) {
+			if(arr[i] > max) {
+				max = arr[i];
+			}
+			if(arr[i] < min) {
+				min = arr[i];
+			}
+		}
+		System.out.println("발생한 난수 : "+sum);
+		System.out.println("최대값 : "+max);
+		System.out.println("최소값 : "+min);
+		
 		
 	}
 
