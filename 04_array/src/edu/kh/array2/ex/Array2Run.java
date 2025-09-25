@@ -6,7 +6,7 @@ public class Array2Run {
 		
 		//ar.ex1();
 		//ar.ex2();
-		ar.ex3();
+		//ar.ex3();
 		
 		
 		

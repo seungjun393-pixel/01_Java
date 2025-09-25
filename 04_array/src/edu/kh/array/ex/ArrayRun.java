@@ -7,7 +7,7 @@ public class ArrayRun {
 		ArrayExample2 ry = new ArrayExample2();
 		
 		
-		//ar.ex1();
+		ar.ex1();
 		//ar.ex2();
 		//ar.ex3();
 		//ar.ex4();
@@ -17,7 +17,7 @@ public class ArrayRun {
 		//ar.ex8();
 		//ry.shallowCopy();
 		//ry.deepCopy();
-		ry.createLottoNumber();
+		//ry.createLottoNumber();
 		
 		
 		
