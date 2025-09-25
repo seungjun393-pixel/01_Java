@@ -44,9 +44,10 @@ public class Employee {
 		this.address = address;
 	}
 	
-	/*public String information() {
-		
-	}*/
+	public String information() {
+		return String.format("%d, %s, %s, %s, %d, %c, %d, %.2f, %s, %s",
+				empNo,empName,dept,job,age,gender,salary,bonusPoint,phone,address);
+	}
 
 
 

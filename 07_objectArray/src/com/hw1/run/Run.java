@@ -28,11 +28,15 @@ public class Run {
 						arr[2].getAge(),arr[2].getGender(),arr[2].getSalary(),arr[2].getBonusPoint()
 						,arr[2].getPhone(),arr[2].getAddress());
 		*/
-		for(int i = 0; i < arr.length; i++ ) {
+		
+		/*for(int i = 0; i < arr.length; i++ ) {
 			System.out.printf("emp[%d] : %d, %s, %s, %s, %d, %c, %d, %.2f, %s, %s\n",i,
 					arr[i].getEmpNo(),arr[i].getEmpName(),arr[i].getDept(),arr[i].getJob(),
 					arr[i].getAge(),arr[i].getGender(),arr[i].getSalary(),arr[i].getBonusPoint()
-					,arr[i].getPhone(),arr[i].getAddress());
+					,arr[i].getPhone(),arr[i].getAddress());*/
+		
+		for(int i = 0; i < arr.length; i++ ) {
+			System.out.printf("emp[%d] : %s\n",i,arr[i].information());
 		}
 		System.out.println("=======================================================================");
 		
@@ -58,11 +62,15 @@ public class Run {
 		arr[1].setPhone("01022223333");
 		arr[1].setAddress("서울 잠실");
 
-		for(int i = 0; i < (arr.length-1); i++ ) {
+		/*for(int i = 0; i < (arr.length-1); i++ ) {
 			System.out.printf("emp[%d] : %d, %s, %s, %s, %d, %c, %d, %.2f, %s, %s\n",i,
 					arr[i].getEmpNo(),arr[i].getEmpName(),arr[i].getDept(),arr[i].getJob(),
 					arr[i].getAge(),arr[i].getGender(),arr[i].getSalary(),arr[i].getBonusPoint()
 					,arr[i].getPhone(),arr[i].getAddress());
+		}*/
+		
+		for(int i = 0; i < (arr.length-1); i++ ) {
+			System.out.printf("emp[%d] : %s\n",i,arr[i].information());
 		}
 		
 		System.out.println("=======================================================================");
