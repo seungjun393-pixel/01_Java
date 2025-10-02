@@ -56,7 +56,7 @@ public class Person /*extends Object*/ {
 	}
 	
 	public void move() {
-		System.out.println("사람은 음직일 수 있다");
+		System.out.println("사람은 움직일 수 있다");
 	}
 	
 	@Override
